@@ -423,7 +423,7 @@ mcpServer.setRequestHandler(ListToolsRequestSchema, async () => ({
             description: "Parameters for the SQL statement"
           }
         },
-        required: ["sql"]
+        required: ["sql", "params"]
       }
     },
     {
